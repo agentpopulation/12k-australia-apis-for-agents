@@ -1,0 +1,1708 @@
+{
+  "repo": "australia-api-endpoints",
+  "title": "Australia API endpoints",
+  "snapshot": "2026-11-16",
+  "snapshot_text": "16 Nov 2026",
+  "snapshot_time": "2026-11-16 00:00:00 IST",
+  "run": true,
+  "tested_total": 4452803,
+  "passed_total": 3346053,
+  "rows": 12917,
+  "unique_urls": 12917,
+  "services": 499,
+  "country_codes": 1,
+  "single_country": "AU",
+  "agent_ready": 12917,
+  "range": {
+    "min": "2026-11-16",
+    "max": "2026-11-17",
+    "text": "16–17 Nov 2026"
+  },
+  "formats": {
+    "json": 12917
+  },
+  "categories": {
+    "Navigation & Geo/Maps": 4776,
+    "Government & Open Data": 3435,
+    "Hydrology & Oceans": 1250,
+    "Transport & Mobility": 1203,
+    "Environment": 839,
+    "Weather & Climate": 317,
+    "Hazards": 296,
+    "Health": 238,
+    "Statistics & Economy": 161,
+    "Energy": 135,
+    "Maritime": 112,
+    "Science": 70,
+    "Finance": 63,
+    "Aviation": 22
+  },
+  "tags": {
+    "agent-ready": 12917,
+    "json": 12917,
+    "no-key": 12917
+  },
+  "dates": {
+    "2026-11-17": 1,
+    "2026-11-16": 12916
+  },
+  "countryNames": {
+    "AU": "Australia"
+  },
+  "leftOutCredential": 0,
+  "leftOutListing": 0,
+  "left_out_by_reason": {
+    "listing page, not a data call": 0,
+    "credential in the address": 0,
+    "private or local address": 0,
+    "email-like address": 0,
+    "survey form layer": 42,
+    "camera or image URL": 0,
+    "stored-login proxy": 0,
+    "class-exercise copy": 2,
+    "editable layer": 14,
+    "police stop records": 0,
+    "form answer layer": 18,
+    "needs an Indian network location": 0,
+    "leak check match": 0,
+    "coursework layer": 395,
+    "public input layer": 74,
+    "personal records layer": 8,
+    "service name like a class layer or a person": 0,
+    "social network server information": 0,
+    "another address of a left-out layer": 12,
+    "teaching organisation": 0,
+    "class account organisation": 1161,
+    "class set layer": 113,
+    "university, college or school organisation": 750,
+    "repeated address": 0,
+    "address already in an earlier pack": 7,
+    "layer already in an earlier pack": 5066,
+    "second address form of a layer": 4572
+  },
+  "leftOutExcluded": 0,
+  "left_out_by_rule": [],
+  "sample_rows": 1000,
+  "focus_rows": 6457,
+  "arcgis_online_rows": 12865,
+  "subcategories": {},
+  "agent_formats": [
+    "json"
+  ],
+  "largestServices": [
+    {
+      "service": "QSpatial Live (ArcGIS Online)",
+      "display": "QSpatial Live (ArcGIS Online)",
+      "host": "services1.arcgis.com",
+      "endpoints": 1195,
+      "agent_ready": 1195,
+      "in_focus": 1135,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "BrisMAP Public (ArcGIS Online)",
+      "display": "BrisMAP Public (ArcGIS Online)",
+      "host": "services2.arcgis.com",
+      "endpoints": 1087,
+      "agent_ready": 1087,
+      "in_focus": 1081,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Adelaide City Council (ArcGIS Online)",
+      "display": "Adelaide City Council (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 440,
+      "agent_ready": 440,
+      "in_focus": 432,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization bLsSwu2wpv4JvxHE",
+      "display": "ArcGIS Online layers (services1.arcgis.com, org bLsSwu2wpv4JvxHE)",
+      "host": "services1.arcgis.com",
+      "endpoints": 434,
+      "agent_ready": 434,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization BLh71157WcIevurr",
+      "display": "ArcGIS Online layers (services8.arcgis.com, org BLh71157WcIevurr)",
+      "host": "services8.arcgis.com",
+      "endpoints": 396,
+      "agent_ready": 396,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization RhjxdaYNSg3JBWYW",
+      "display": "ArcGIS Online layers (services.arcgis.com, org RhjxdaYNSg3JBWYW)",
+      "host": "services.arcgis.com",
+      "endpoints": 307,
+      "agent_ready": 307,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "City of Melbourne AGOL (ArcGIS Online)",
+      "display": "City of Melbourne AGOL (ArcGIS Online)",
+      "host": "services1.arcgis.com",
+      "endpoints": 221,
+      "agent_ready": 221,
+      "in_focus": 203,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization UNdYvgM0AyMBIDAf",
+      "display": "ArcGIS Online layers (services2.arcgis.com, org UNdYvgM0AyMBIDAf)",
+      "host": "services2.arcgis.com",
+      "endpoints": 201,
+      "agent_ready": 201,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization LHYr6B7cFUs40aCx",
+      "display": "ArcGIS Online layers (services6.arcgis.com, org LHYr6B7cFUs40aCx)",
+      "host": "services6.arcgis.com",
+      "endpoints": 188,
+      "agent_ready": 188,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Esri Australia (ArcGIS Online)",
+      "display": "Esri Australia (ArcGIS Online)",
+      "host": "services1.arcgis.com",
+      "endpoints": 183,
+      "agent_ready": 183,
+      "in_focus": 170,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "WGA (ArcGIS Online)",
+      "display": "WGA (ArcGIS Online)",
+      "host": "services8.arcgis.com",
+      "endpoints": 177,
+      "agent_ready": 177,
+      "in_focus": 172,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization 1G2EoGF80ChC3Y1o",
+      "display": "ArcGIS Online layers (services.arcgis.com, org 1G2EoGF80ChC3Y1o)",
+      "host": "services.arcgis.com",
+      "endpoints": 169,
+      "agent_ready": 169,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "City of Launceston (ArcGIS Online)",
+      "display": "City of Launceston (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 165,
+      "agent_ready": 165,
+      "in_focus": 163,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "City of Mitcham (ArcGIS Online)",
+      "display": "City of Mitcham (ArcGIS Online)",
+      "host": "services6.arcgis.com",
+      "endpoints": 156,
+      "agent_ready": 156,
+      "in_focus": 149,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Tweed Shire Council (ArcGIS Online)",
+      "display": "Tweed Shire Council (ArcGIS Online)",
+      "host": "services1.arcgis.com",
+      "endpoints": 149,
+      "agent_ready": 149,
+      "in_focus": 147,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Dept. of Primary Industries and Regional Development (ArcGIS Online)",
+      "display": "Dept. of Primary Industries and Regional Development (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 137,
+      "agent_ready": 137,
+      "in_focus": 126,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "SPAN (ArcGIS Online)",
+      "display": "SPAN (ArcGIS Online)",
+      "host": "services2.arcgis.com",
+      "endpoints": 133,
+      "agent_ready": 133,
+      "in_focus": 133,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization uxSA9BNs5D3ZclHG",
+      "display": "ArcGIS Online layers (services3.arcgis.com, org uxSA9BNs5D3ZclHG)",
+      "host": "services3.arcgis.com",
+      "endpoints": 131,
+      "agent_ready": 131,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "City of Hobart (ArcGIS Online)",
+      "display": "City of Hobart (ArcGIS Online)",
+      "host": "services1.arcgis.com",
+      "endpoints": 127,
+      "agent_ready": 127,
+      "in_focus": 127,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "City of Onkaparinga Online (ArcGIS Online)",
+      "display": "City of Onkaparinga Online (ArcGIS Online)",
+      "host": "services3.arcgis.com",
+      "endpoints": 125,
+      "agent_ready": 125,
+      "in_focus": 123,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization Y68WgAIwaOZLUvnp",
+      "display": "ArcGIS Online layers (services1.arcgis.com, org Y68WgAIwaOZLUvnp)",
+      "host": "services1.arcgis.com",
+      "endpoints": 118,
+      "agent_ready": 118,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization 0DC4vcLptfOKPtFG",
+      "display": "ArcGIS Online layers (services5.arcgis.com, org 0DC4vcLptfOKPtFG)",
+      "host": "services5.arcgis.com",
+      "endpoints": 116,
+      "agent_ready": 116,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Australian Capital Territory Government (ArcGIS Online)",
+      "display": "Australian Capital Territory Government (ArcGIS Online)",
+      "host": "services1.arcgis.com",
+      "endpoints": 108,
+      "agent_ready": 108,
+      "in_focus": 108,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization v3oMe9wHUmwPLopW",
+      "display": "ArcGIS Online layers (services7.arcgis.com, org v3oMe9wHUmwPLopW)",
+      "host": "services7.arcgis.com",
+      "endpoints": 105,
+      "agent_ready": 105,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization iR1gOFe0FlzMQ2yd",
+      "display": "ArcGIS Online layers (services3.arcgis.com, org iR1gOFe0FlzMQ2yd)",
+      "host": "services3.arcgis.com",
+      "endpoints": 99,
+      "agent_ready": 99,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    }
+  ],
+  "bannerGroups": [
+    {
+      "label": "Navigation & Geo/Maps",
+      "n": 4776,
+      "agent": 4776
+    },
+    {
+      "label": "Government & Open Data",
+      "n": 3435,
+      "agent": 3435
+    },
+    {
+      "label": "Hydrology & Oceans",
+      "n": 1250,
+      "agent": 1250
+    },
+    {
+      "label": "Transport & Mobility",
+      "n": 1203,
+      "agent": 1203
+    },
+    {
+      "label": "Environment",
+      "n": 839,
+      "agent": 839
+    },
+    {
+      "label": "Weather & Climate",
+      "n": 317,
+      "agent": 317
+    }
+  ],
+  "focus_text": "NOT title matches /(?<![a-z])(test|tests|testing|draft|drafts|copy|sample|samples|demo|untitled|scratch|temp|tmp|delete|deleteme|practice|dummy|example|training)(?![a-z])|final_final|\\d{7,}/i AND (NOT url matches ///(services[0-9]*(-[a-z0-9]+)?|utility)\\.arcgis\\.com//i OR NOT service matches /^ArcGIS organization /i)",
+  "buckets": [
+    {
+      "id": "agent",
+      "emoji": "🤖",
+      "name": "Agent tools",
+      "title": "Keyless JSON layers and tables an agent can call (Australia)",
+      "build": "Wrap one layer query as a get_layer_features tool: pass a where clause or a bounding box, return the matching features with a timeout.",
+      "filter": {
+        "tag": "agent-ready"
+      },
+      "filter_text": "tags has agent-ready",
+      "fallback": false,
+      "notes": [
+        {
+          "count": 12917,
+          "text": "are map-layer queries that asked for a few records (`resultRecordCount`); add a where clause or a geometry to ask about one place, and page through for the whole layer."
+        }
+      ],
+      "count": 12917,
+      "services_matching": 499,
+      "country_codes_matching": 1,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://services1.arcgis.com/HrMiNYsSqqPpLTDE/ArcGIS/rest/services/2018%20Equestrian%20Heatmap%20%28Club%20Points%29/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+        "title": "2018 Equestrian Heatmap (Club Points)",
+        "service": "QSpatial Live (ArcGIS Online)",
+        "last_tested": "2026-11-16"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and are tagged `agent-ready` (no key sent in the test call, JSON body, passed a data call). Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `url matches //query\\?/i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 140,
+        "services": [
+          {
+            "service": "QSpatial Live (ArcGIS Online)",
+            "display": "QSpatial Live (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 1195,
+            "endpoints_in_pack": 1195,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/HrMiNYsSqqPpLTDE/ArcGIS/rest/services/2018%20Equestrian%20Heatmap%20%28Club%20Points%29/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "2018 Equestrian Heatmap (Club Points)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "BrisMAP Public (ArcGIS Online)",
+            "display": "BrisMAP Public (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 1087,
+            "endpoints_in_pack": 1087,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/dEKgZETqwmDAh1rP/ArcGIS/rest/services/Areas_with_no_change/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Areas_with_no_change",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Adelaide City Council (ArcGIS Online)",
+            "display": "Adelaide City Council (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 440,
+            "endpoints_in_pack": 440,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/BzylpWnjWP0tW4nL/ArcGIS/rest/services/ABS_2021_Census_Households/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ABS_2021_Census_Households",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "City of Melbourne AGOL (ArcGIS Online)",
+            "display": "City of Melbourne AGOL (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 221,
+            "endpoints_in_pack": 221,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/KGdHCCUjGBpOPPac/ArcGIS/rest/services/ArdenMacaulay/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ArdenMacaulay",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Esri Australia (ArcGIS Online)",
+            "display": "Esri Australia (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 183,
+            "endpoints_in_pack": 183,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/vHnIGBHHqDR6y0CR/arcgis/rest/services/ABS_gdb/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "ABS_gdb",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "WGA (ArcGIS Online)",
+            "display": "WGA (ArcGIS Online)",
+            "host": "services8.arcgis.com",
+            "endpoints_in_bucket": 177,
+            "endpoints_in_pack": 177,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services8.arcgis.com/GAZiuYWXmnwzoGFY/ArcGIS/rest/services/130330_Waterproofing_Eastern_Adelaide_Production_Wells/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "130330_Waterproofing_Eastern_Adelaide_Production_Wells",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "City of Launceston (ArcGIS Online)",
+            "display": "City of Launceston (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 165,
+            "endpoints_in_pack": 165,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/yeXpdyjk3azbqItW/ArcGIS/rest/services/125m%20buffer%20for%20food%20vans/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "125m buffer for food vans",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "City of Mitcham (ArcGIS Online)",
+            "display": "City of Mitcham (ArcGIS Online)",
+            "host": "services6.arcgis.com",
+            "endpoints_in_bucket": 156,
+            "endpoints_in_pack": 156,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services6.arcgis.com/UphqjK3yJGEvvlyt/ArcGIS/rest/services/Arterial_Roads/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Arterial_Roads",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          }
+        ]
+      }
+    },
+    {
+      "id": "app",
+      "emoji": "📱",
+      "name": "App features",
+      "title": "Map layers to draw in an app (Australia)",
+      "build": "Add the layers to an app map: read the layer once for its fields, then ask for the features in the visible area.",
+      "filter": {
+        "urlMatches": "/(Feature|Map)Server/"
+      },
+      "filter_text": "url matches //(Feature|Map)Server//i",
+      "fallback": false,
+      "notes": [],
+      "count": 12917,
+      "services_matching": 499,
+      "country_codes_matching": 1,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://services1.arcgis.com/HrMiNYsSqqPpLTDE/ArcGIS/rest/services/2018%20Equestrian%20Heatmap%20%28Club%20Points%29/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+        "title": "2018 Equestrian Heatmap (Club Points)",
+        "service": "QSpatial Live (ArcGIS Online)",
+        "last_tested": "2026-11-16"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 140,
+        "services": [
+          {
+            "service": "QSpatial Live (ArcGIS Online)",
+            "display": "QSpatial Live (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 1195,
+            "endpoints_in_pack": 1195,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/HrMiNYsSqqPpLTDE/ArcGIS/rest/services/2018%20Equestrian%20Heatmap%20%28Club%20Points%29/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "2018 Equestrian Heatmap (Club Points)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "BrisMAP Public (ArcGIS Online)",
+            "display": "BrisMAP Public (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 1087,
+            "endpoints_in_pack": 1087,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/dEKgZETqwmDAh1rP/ArcGIS/rest/services/Areas_with_no_change/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Areas_with_no_change",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Adelaide City Council (ArcGIS Online)",
+            "display": "Adelaide City Council (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 440,
+            "endpoints_in_pack": 440,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/BzylpWnjWP0tW4nL/ArcGIS/rest/services/ABS_2021_Census_Households/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ABS_2021_Census_Households",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "City of Melbourne AGOL (ArcGIS Online)",
+            "display": "City of Melbourne AGOL (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 221,
+            "endpoints_in_pack": 221,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/KGdHCCUjGBpOPPac/ArcGIS/rest/services/ArdenMacaulay/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ArdenMacaulay",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Esri Australia (ArcGIS Online)",
+            "display": "Esri Australia (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 183,
+            "endpoints_in_pack": 183,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/vHnIGBHHqDR6y0CR/arcgis/rest/services/ABS_gdb/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "ABS_gdb",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "WGA (ArcGIS Online)",
+            "display": "WGA (ArcGIS Online)",
+            "host": "services8.arcgis.com",
+            "endpoints_in_bucket": 177,
+            "endpoints_in_pack": 177,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services8.arcgis.com/GAZiuYWXmnwzoGFY/ArcGIS/rest/services/130330_Waterproofing_Eastern_Adelaide_Production_Wells/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "130330_Waterproofing_Eastern_Adelaide_Production_Wells",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "City of Launceston (ArcGIS Online)",
+            "display": "City of Launceston (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 165,
+            "endpoints_in_pack": 165,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/yeXpdyjk3azbqItW/ArcGIS/rest/services/125m%20buffer%20for%20food%20vans/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "125m buffer for food vans",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "City of Mitcham (ArcGIS Online)",
+            "display": "City of Mitcham (ArcGIS Online)",
+            "host": "services6.arcgis.com",
+            "endpoints_in_bucket": 156,
+            "endpoints_in_pack": 156,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services6.arcgis.com/UphqjK3yJGEvvlyt/ArcGIS/rest/services/Arterial_Roads/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Arterial_Roads",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grounding",
+      "emoji": "🧠",
+      "name": "Grounding and data pipelines",
+      "title": "Statistics, boundaries, parcels and inventories for scheduled loads (Australia)",
+      "build": "Load the tables and layers on a schedule into your own store, so an agent can cite a dated source.",
+      "filter": {
+        "or": [
+          {
+            "format": [
+              "csv",
+              "xml",
+              "geojson"
+            ]
+          },
+          {
+            "titleMatches": "statist|census|population|boundar|parcel|zoning|district|budget|election|crash|permit|inventory|land ?use|landuse|cadast|address"
+          }
+        ]
+      },
+      "filter_text": "format in (csv, xml, geojson) OR title matches /statist|census|population|boundar|parcel|zoning|district|budget|election|crash|permit|inventory|land ?use|landuse|cadast|address/i",
+      "fallback": false,
+      "notes": [],
+      "count": 836,
+      "services_matching": 186,
+      "country_codes_matching": 1,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://services.arcgis.com/BzylpWnjWP0tW4nL/ArcGIS/rest/services/ABS_2021_Census_Households/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+        "title": "ABS_2021_Census_Households",
+        "service": "Adelaide City Council (ArcGIS Online)",
+        "last_tested": "2026-11-16"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 64,
+        "services": [
+          {
+            "service": "Adelaide City Council (ArcGIS Online)",
+            "display": "Adelaide City Council (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 100,
+            "endpoints_in_pack": 440,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/BzylpWnjWP0tW4nL/ArcGIS/rest/services/ABS_2021_Census_Households/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ABS_2021_Census_Households",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "QSpatial Live (ArcGIS Online)",
+            "display": "QSpatial Live (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 68,
+            "endpoints_in_pack": 1195,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/HrMiNYsSqqPpLTDE/ArcGIS/rest/services/2021%20Census_QLD_Statistical%20Area%20Level%202/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "2021 Census_QLD_Statistical Area Level 2",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "BrisMAP Public (ArcGIS Online)",
+            "display": "BrisMAP Public (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 56,
+            "endpoints_in_pack": 1087,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/dEKgZETqwmDAh1rP/ArcGIS/rest/services/City_Plan_2014_Property_Parcel_Flags/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "City_Plan_2014_Property_Parcel_Flags",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Australian Bureau of Statistics (ArcGIS Online)",
+            "display": "Australian Bureau of Statistics (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 18,
+            "endpoints_in_pack": 68,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/v8Kimc579yljmjSP/ArcGIS/rest/services/Regional_Population_By_Age_2021/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Regional_Population_By_Age_2021",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Esri Australia (ArcGIS Online)",
+            "display": "Esri Australia (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 17,
+            "endpoints_in_pack": 183,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/vHnIGBHHqDR6y0CR/arcgis/rest/services/CanberraRoadCrashes/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "CanberraRoadCrashes",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Tweed Shire Council (ArcGIS Online)",
+            "display": "Tweed Shire Council (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 14,
+            "endpoints_in_pack": 149,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/KURAxOhGWn5RdCPg/ArcGIS/rest/services/AUTH_PARCEL_ROAD/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "AUTH_PARCEL_ROAD",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "City of Melbourne AGOL (ArcGIS Online)",
+            "display": "City of Melbourne AGOL (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 13,
+            "endpoints_in_pack": 221,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/KGdHCCUjGBpOPPac/ArcGIS/rest/services/City_of_Melbourne_Suburb_Boundaries_WFL1/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "City_of_Melbourne_Suburb_Boundaries_WFL1",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Albury City Council (AGOL) (ArcGIS Online)",
+            "display": "Albury City Council (AGOL) (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 10,
+            "endpoints_in_pack": 69,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/UytyQvWmxkbjUtjg/arcgis/rest/services/Boundary/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Albury LGA Boundary",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evals",
+      "emoji": "🧪",
+      "name": "Evals and testing",
+      "title": "Varied responses to test tool calls and parsers",
+      "build": "Run your tool calls against a fixed set of URLs across formats and record which answer; last_tested is the baseline for your own re-tests.",
+      "filter": {
+        "whole": true
+      },
+      "filter_text": "the whole pack",
+      "fallback": false,
+      "notes": [],
+      "count": 12917,
+      "services_matching": 499,
+      "country_codes_matching": 1,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://services1.arcgis.com/HrMiNYsSqqPpLTDE/ArcGIS/rest/services/2018%20Equestrian%20Heatmap%20%28Club%20Points%29/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+        "title": "2018 Equestrian Heatmap (Club Points)",
+        "service": "QSpatial Live (ArcGIS Online)",
+        "last_tested": "2026-11-16"
+      },
+      "recommended": {
+        "criteria": "Services in this pack that returned the most different formats, then the most endpoints that passed a data call, then by name: a mix of response shapes to test parsers and tool calls. Here the services returned 1 format each, so the order comes down to endpoint counts. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 140,
+        "services": [
+          {
+            "service": "QSpatial Live (ArcGIS Online)",
+            "display": "QSpatial Live (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 1195,
+            "endpoints_in_pack": 1195,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/HrMiNYsSqqPpLTDE/ArcGIS/rest/services/2018%20Equestrian%20Heatmap%20%28Club%20Points%29/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "2018 Equestrian Heatmap (Club Points)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "BrisMAP Public (ArcGIS Online)",
+            "display": "BrisMAP Public (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 1087,
+            "endpoints_in_pack": 1087,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/dEKgZETqwmDAh1rP/ArcGIS/rest/services/Areas_with_no_change/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Areas_with_no_change",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Adelaide City Council (ArcGIS Online)",
+            "display": "Adelaide City Council (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 440,
+            "endpoints_in_pack": 440,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/BzylpWnjWP0tW4nL/ArcGIS/rest/services/ABS_2021_Census_Households/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ABS_2021_Census_Households",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "City of Melbourne AGOL (ArcGIS Online)",
+            "display": "City of Melbourne AGOL (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 221,
+            "endpoints_in_pack": 221,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/KGdHCCUjGBpOPPac/ArcGIS/rest/services/ArdenMacaulay/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ArdenMacaulay",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Esri Australia (ArcGIS Online)",
+            "display": "Esri Australia (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 183,
+            "endpoints_in_pack": 183,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/vHnIGBHHqDR6y0CR/arcgis/rest/services/ABS_gdb/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "ABS_gdb",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "WGA (ArcGIS Online)",
+            "display": "WGA (ArcGIS Online)",
+            "host": "services8.arcgis.com",
+            "endpoints_in_bucket": 177,
+            "endpoints_in_pack": 177,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services8.arcgis.com/GAZiuYWXmnwzoGFY/ArcGIS/rest/services/130330_Waterproofing_Eastern_Adelaide_Production_Wells/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "130330_Waterproofing_Eastern_Adelaide_Production_Wells",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "City of Launceston (ArcGIS Online)",
+            "display": "City of Launceston (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 165,
+            "endpoints_in_pack": 165,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/yeXpdyjk3azbqItW/ArcGIS/rest/services/125m%20buffer%20for%20food%20vans/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "125m buffer for food vans",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "City of Mitcham (ArcGIS Online)",
+            "display": "City of Mitcham (ArcGIS Online)",
+            "host": "services6.arcgis.com",
+            "endpoints_in_bucket": 156,
+            "endpoints_in_pack": 156,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services6.arcgis.com/UphqjK3yJGEvvlyt/ArcGIS/rest/services/Arterial_Roads/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Arterial_Roads",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "q": "Which layers does Brisbane City Council publish on BrisMAP?",
+      "filter": "url matches /dEKgZETqwmDAh1rP/arcgis/rest/services//i",
+      "url": "https://services2.arcgis.com/dEKgZETqwmDAh1rP/ArcGIS/rest/services/Areas_with_no_change/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+      "title": "Areas_with_no_change",
+      "service": "BrisMAP Public (ArcGIS Online)",
+      "last_tested": "2026-11-16",
+      "matching": 1087
+    },
+    {
+      "q": "Which tree and street layers does the City of Melbourne publish?",
+      "filter": "url matches /KGdHCCUjGBpOPPac/arcgis/rest/services//i",
+      "url": "https://services1.arcgis.com/KGdHCCUjGBpOPPac/ArcGIS/rest/services/ArdenMacaulay/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+      "title": "ArdenMacaulay",
+      "service": "City of Melbourne AGOL (ArcGIS Online)",
+      "last_tested": "2026-11-16",
+      "matching": 221
+    },
+    {
+      "q": "Which layers does Adelaide City Council publish?",
+      "filter": "url matches /BzylpWnjWP0tW4nL/arcgis/rest/services//i",
+      "url": "https://services.arcgis.com/BzylpWnjWP0tW4nL/ArcGIS/rest/services/ABS_2021_Census_Households/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+      "title": "ABS_2021_Census_Households",
+      "service": "Adelaide City Council (ArcGIS Online)",
+      "last_tested": "2026-11-16",
+      "matching": 440
+    },
+    {
+      "q": "Which layers does the ACT Government publish?",
+      "filter": "url matches /E5n4f1VY84i0xSjy/arcgis/rest/services//i",
+      "url": "https://services1.arcgis.com/E5n4f1VY84i0xSjy/ArcGIS/rest/services/2019_20_Not_treated_invasive_plants_VIEW_ONLY/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+      "title": "2019_20_Not_treated_invasive_plants_VIEW_ONLY",
+      "service": "Australian Capital Territory Government (ArcGIS Online)",
+      "last_tested": "2026-11-16",
+      "matching": 108
+    }
+  ],
+  "preview_focused": true,
+  "preview": [
+    {
+      "title": "2018 Equestrian Heatmap (Club Points)",
+      "service": "QSpatial Live (ArcGIS Online)",
+      "country": "AU",
+      "category": "Navigation & Geo/Maps",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "services1.arcgis.com",
+      "url": "https://services1.arcgis.com/HrMiNYsSqqPpLTDE/ArcGIS/rest/services/2018%20Equestrian%20Heatmap%20%28Club%20Points%29/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    },
+    {
+      "title": "Areas_with_no_change",
+      "service": "BrisMAP Public (ArcGIS Online)",
+      "country": "AU",
+      "category": "Navigation & Geo/Maps",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "services2.arcgis.com",
+      "url": "https://services2.arcgis.com/dEKgZETqwmDAh1rP/ArcGIS/rest/services/Areas_with_no_change/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    },
+    {
+      "title": "ABS_2021_Census_Households",
+      "service": "Adelaide City Council (ArcGIS Online)",
+      "country": "AU",
+      "category": "Navigation & Geo/Maps",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "services.arcgis.com",
+      "url": "https://services.arcgis.com/BzylpWnjWP0tW4nL/ArcGIS/rest/services/ABS_2021_Census_Households/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    },
+    {
+      "title": "ArdenMacaulay",
+      "service": "City of Melbourne AGOL (ArcGIS Online)",
+      "country": "AU",
+      "category": "Navigation & Geo/Maps",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "services1.arcgis.com",
+      "url": "https://services1.arcgis.com/KGdHCCUjGBpOPPac/ArcGIS/rest/services/ArdenMacaulay/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    },
+    {
+      "title": "130330_Waterproofing_Eastern_Adelaide_Production_Wells",
+      "service": "WGA (ArcGIS Online)",
+      "country": "AU",
+      "category": "Government & Open Data",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "services8.arcgis.com",
+      "url": "https://services8.arcgis.com/GAZiuYWXmnwzoGFY/ArcGIS/rest/services/130330_Waterproofing_Eastern_Adelaide_Production_Wells/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    }
+  ],
+  "limits": [
+    {
+      "id": "record-count",
+      "text": "12,917 rows are map-layer queries with resultRecordCount set: the tested call asked for a few records; change the query to get the full layer."
+    },
+    {
+      "id": "pack",
+      "text": "12,865 rows are layers on ArcGIS Online, where anyone can publish: some are class projects, tests or copies. Check the owner and the fields before you rely on one. Only layers of organisations with a name of their own, whose titles do not read as a test, draft or copy, are used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "668 rows have a title that reads as a test, a draft, a copy or a sample; they are not used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "The country code (AU) is the code the endpoint is filed under, not the place the data covers and not always the publisher's country. Where a row had no code, the code of its ArcGIS organisation is used when that organisation lists one country only. In a sample of 14 titles read before release, none was about a place outside Australia. Filter by title or service if you need data about one place."
+    },
+    {
+      "id": "quiet",
+      "text": "Stations and feeds can go quiet after their test date; re-test a URL before you rely on it."
+    },
+    {
+      "id": "not-in",
+      "text": "Not in this pack: endpoints that need a key or a POST, and URLs that did not pass."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 42 ArcGIS Survey123 layers (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 2 class-exercise copies of the same few ArcGIS Online layers (Miami Beach sea level rise, high-risk areas without shelter, flooded areas, sea level rise and storm surge maps) across many organisations, many with a person's name in the title."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 14 layers marked editable in the title (they can hold entries that people added)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 18 ArcGIS layers that keep a form's default service name (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 395 ArcGIS class or coursework layers (lab, assignment, exam, quiz, lesson, exercise, tutorial and final-project layers, copies of class layers, layers named for a person or a person's home, and layers whose name ends in a person's name or holds a student number)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 74 ArcGIS layers that hold reports, comments, submissions or form responses sent in by the public."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 8 ArcGIS layers that are records about named people (employee, patient, client or donor lists, home addresses, voter lists, sex offender and missing person layers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 12 rows that are another address of an ArcGIS layer dropped for what it holds (one of the reasons above, found under another address of the layer)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 1,161 rows of ArcGIS Online organisations that are class accounts (3 class sets or more in at least 20% of their rows, 10 class sets or more with no organisation name, or layers signed by students read by hand): their other layers are students' work too."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 113 rows of class sets: one map layer saved under 5 or more students' initials or names in one ArcGIS Online organisation, or in 4 or more students' own organisations."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 750 rows of university, college and school organisations and hosts (many of their layers are students' work)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 7 rows whose address is already in an earlier pack of the collection."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 5,066 rows that are another address form of an ArcGIS layer already in an earlier pack of the collection (the same rows under another query)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 4,572 rows that are a second address form of an ArcGIS layer in this list (the same rows under another query); one address is kept per layer, the newest test first."
+    }
+  ],
+  "name": "12k-australia-apis-for-agents",
+  "services_tested": null,
+  "services_file_rows": 499,
+  "sample_mix": [
+    {
+      "source": "ArcGIS Online layers",
+      "focus_rows": 6405,
+      "sample_rows": 948
+    },
+    {
+      "source": "Nsw (portal.spatial.nsw.gov.au)",
+      "focus_rows": 25,
+      "sample_rows": 25
+    },
+    {
+      "source": "Tas (data.stategrowth.tas.gov.au)",
+      "focus_rows": 15,
+      "sample_rows": 15
+    },
+    {
+      "source": "gisservices.mainroads.wa.gov.au",
+      "focus_rows": 4,
+      "sample_rows": 4
+    },
+    {
+      "source": "Mdba (gis.mdba.gov.au)",
+      "focus_rows": 2,
+      "sample_rows": 2
+    },
+    {
+      "source": "Vic (cogggis.geelongcity.vic.gov.au)",
+      "focus_rows": 2,
+      "sample_rows": 2
+    },
+    {
+      "source": "Nsw (mapprod1.environment.nsw.gov.au)",
+      "focus_rows": 1,
+      "sample_rows": 1
+    },
+    {
+      "source": "arcgis.apps.unley.sa.gov.au",
+      "focus_rows": 1,
+      "sample_rows": 1
+    },
+    {
+      "source": "data.gov.au (mapprod.environment.nsw.gov.au)",
+      "focus_rows": 1,
+      "sample_rows": 1
+    },
+    {
+      "source": "data.gov.au (mapprod3.environment.nsw.gov.au)",
+      "focus_rows": 1,
+      "sample_rows": 1
+    }
+  ],
+  "sample_focus_rows": 6457,
+  "sample_rule": "1,000 rows, or one third of the pack rounded down, whichever is smaller",
+  "files": [
+    {
+      "name": "data/Australia_API_Services_AgentPopulation.csv",
+      "rows": 499,
+      "bytes": 32070,
+      "sha256": "be5929a8db9e241fa6c64ede57e337110e53a05b6ed2e542c33920a46cc99878"
+    },
+    {
+      "name": "data/Australia_API_Endpoints_AgentPopulation_Sample.csv",
+      "rows": 1000,
+      "bytes": 323057,
+      "sha256": "a486086515d0cf2620687f13cc2dfe11a710b64c1580a7e59226f2d62e1c7e19"
+    },
+    {
+      "name": "data/Australia_API_Endpoints_AgentPopulation_Sample.json",
+      "rows": 1000,
+      "bytes": 505912,
+      "sha256": "83d921d89eed152b4424d07e9f16f2d122e160946012b5782845a7b59da20c92"
+    }
+  ],
+  "release_asset": {
+    "name": "Australia_API_Endpoints_AgentPopulation_Snapshot_2026-11-16.csv.gz",
+    "rows": 12917,
+    "bytes": 255597,
+    "raw_bytes": 4340714,
+    "sha256": "01253d4f3d356af11323742643d7365b71c6578ca6453b901a34a2b46d3d52cb",
+    "url": "https://github.com/agentpopulation/12k-australia-apis-for-agents/releases/latest/download/Australia_API_Endpoints_AgentPopulation_Snapshot_2026-11-16.csv.gz"
+  },
+  "release_tag": "snapshot-2026-11-16",
+  "overlaps": [
+    {
+      "repo": "weather-api-endpoints",
+      "name": "170k-weather-apis-for-agents",
+      "title": "Weather API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "transit-api-endpoints",
+      "name": "240k-transit-apis-for-agents",
+      "title": "Transit API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "water-api-endpoints",
+      "name": "260k-water-apis-for-agents",
+      "title": "Rivers and water API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "finance-economy-api-endpoints",
+      "name": "120k-finance-economy-apis-for-agents",
+      "title": "Finance and economy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "india-api-endpoints",
+      "name": "130k-india-apis-for-agents",
+      "title": "India API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "government-open-data-api-endpoints",
+      "name": "1.2m-government-open-data-apis",
+      "title": "Government open data API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "statistics-api-endpoints",
+      "name": "270k-statistics-apis-for-agents",
+      "title": "Statistics and census API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "oceans-api-endpoints",
+      "name": "84k-oceans-apis-for-agents",
+      "title": "Ocean and marine API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "maritime-api-endpoints",
+      "name": "22k-maritime-apis-for-agents",
+      "title": "Maritime API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "environment-api-endpoints",
+      "name": "160k-environment-apis-for-agents",
+      "title": "Environment API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "air-quality-api-endpoints",
+      "name": "19k-air-quality-apis-for-agents",
+      "title": "Air quality API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "maps-gis-api-endpoints",
+      "name": "350k-maps-gis-apis-for-agents",
+      "title": "Maps and GIS API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "agent-ready-api-endpoints",
+      "name": "2.2m-agent-ready-apis",
+      "title": "Agent-ready API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "health-api-endpoints",
+      "name": "84k-health-apis-for-agents",
+      "title": "Health API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "science-api-endpoints",
+      "name": "380k-science-apis-for-agents",
+      "title": "Science API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "hazards-api-endpoints",
+      "name": "40k-hazards-apis-for-agents",
+      "title": "Hazards and alerts API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "wildfire-api-endpoints",
+      "name": "4.9k-wildfire-apis-for-agents",
+      "title": "Wildfire API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "energy-api-endpoints",
+      "name": "67k-energy-apis-for-agents",
+      "title": "Energy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "aviation-api-endpoints",
+      "name": "23k-aviation-apis-for-agents",
+      "title": "Aviation API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "traffic-api-endpoints",
+      "name": "22k-traffic-apis-for-agents",
+      "title": "Traffic and roadworks API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "parking-api-endpoints",
+      "name": "10k-parking-apis-for-agents",
+      "title": "Parking API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "earthquake-api-endpoints",
+      "name": "7.8k-earthquake-apis-for-agents",
+      "title": "Earthquake API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "volcano-tsunami-api-endpoints",
+      "name": "4.2k-volcano-tsunami-apis-for-agents",
+      "title": "Volcano and tsunami API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "bike-share-api-endpoints",
+      "name": "17k-bike-share-apis-for-agents",
+      "title": "Bike-share API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "united-states-api-endpoints",
+      "name": "750k-united-states-apis-for-agents",
+      "title": "United States API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "united-kingdom-api-endpoints",
+      "name": "52k-united-kingdom-apis-for-agents",
+      "title": "United Kingdom API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "france-api-endpoints",
+      "name": "47k-france-apis-for-agents",
+      "title": "France API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "spain-api-endpoints",
+      "name": "8.1k-spain-apis-for-agents",
+      "title": "Spain API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "indonesia-api-endpoints",
+      "name": "22k-indonesia-apis-for-agents",
+      "title": "Indonesia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "canada-api-endpoints",
+      "name": "19k-canada-apis-for-agents",
+      "title": "Canada API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "netherlands-api-endpoints",
+      "name": "17k-netherlands-apis-for-agents",
+      "title": "Netherlands API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "germany-api-endpoints",
+      "name": "14k-germany-apis-for-agents",
+      "title": "Germany API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "norway-api-endpoints",
+      "name": "12k-norway-apis-for-agents",
+      "title": "Norway API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "brazil-api-endpoints",
+      "name": "14k-brazil-apis-for-agents",
+      "title": "Brazil API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "japan-api-endpoints",
+      "name": "9.8k-japan-apis-for-agents",
+      "title": "Japan API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "colombia-api-endpoints",
+      "name": "10k-colombia-apis-for-agents",
+      "title": "Colombia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "czechia-api-endpoints",
+      "name": "6.3k-czechia-apis-for-agents",
+      "title": "Czechia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "poland-api-endpoints",
+      "name": "6.3k-poland-apis-for-agents",
+      "title": "Poland API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "taiwan-api-endpoints",
+      "name": "4.2k-taiwan-apis-for-agents",
+      "title": "Taiwan API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "italy-api-endpoints",
+      "name": "7.3k-italy-apis-for-agents",
+      "title": "Italy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "new-zealand-api-endpoints",
+      "name": "6.1k-new-zealand-apis-for-agents",
+      "title": "New Zealand API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "nordic-api-endpoints",
+      "name": "13k-nordic-apis-for-agents",
+      "title": "Nordic API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "more-europe-api-endpoints",
+      "name": "24k-more-europe-apis-for-agents",
+      "title": "More Europe API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "latin-america-caribbean-api-endpoints",
+      "name": "20k-latin-america-caribbean-apis-for-agents",
+      "title": "Latin America and Caribbean API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "europe-region-arcgis-api-endpoints",
+      "name": "59k-europe-region-arcgis-apis-for-agents",
+      "title": "Europe-region ArcGIS API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "middle-east-africa-api-endpoints",
+      "name": "6.7k-middle-east-africa-apis-for-agents",
+      "title": "Middle East and Africa API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "county-and-city-gis-api-endpoints",
+      "name": "160k-county-and-city-gis-apis-for-agents",
+      "title": "County and city GIS API endpoints",
+      "shared": 2460
+    },
+    {
+      "repo": "public-agency-gis-api-endpoints",
+      "name": "47k-public-agency-gis-apis-for-agents",
+      "title": "Public agency GIS API endpoints",
+      "shared": 353
+    },
+    {
+      "repo": "arcgis-server-api-endpoints",
+      "name": "25k-arcgis-server-apis-for-agents",
+      "title": "ArcGIS Server API endpoints",
+      "shared": 52
+    }
+  ],
+  "pack_count": 50,
+  "description": "12,917 API endpoints filed under country code AU that passed a keyless data call. For agent tools, apps, pipelines and evals. CSV, CC BY 4.0.",
+  "readme_ap_share": 0.083,
+  "country_counts": {
+    "AU": 12917
+  }
+}

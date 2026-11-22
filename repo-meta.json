@@ -1,0 +1,31 @@
+{
+  "name": "12k-australia-apis-for-agents",
+  "new_name": "12k-australia-apis-for-agents",
+  "url": "https://github.com/agentpopulation/12k-australia-apis-for-agents",
+  "description": "12,917 API endpoints filed under country code AU that passed a keyless data call. For agent tools, apps, pipelines and evals. CSV, CC BY 4.0.",
+  "homepage": "https://agentpopulation.com/apis",
+  "topics": [
+    "api-endpoints",
+    "open-data",
+    "dataset",
+    "ai-agents",
+    "agent-tools",
+    "agentpopulation",
+    "australia",
+    "australia-data",
+    "geospatial",
+    "arcgis",
+    "map-layers",
+    "municipal-data"
+  ],
+  "release": {
+    "tag": "snapshot-2026-11-16",
+    "title": "Australia API endpoints · snapshot 16 Nov 2026 · 12,917 endpoints",
+    "notesFile": "RELEASE_NOTES.md",
+    "manifest": "../_release/australia-api-endpoints/release.json",
+    "assets": [
+      "../_release/australia-api-endpoints/Australia_API_Endpoints_AgentPopulation_Snapshot_2026-11-16.csv.gz",
+      "../_release/australia-api-endpoints/SHA256SUMS.txt"
+    ]
+  }
+}
